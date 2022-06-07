@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr repeat(2, 2fr) repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; background-color: red;}
+    .div2 { grid-area: 2 / 3 / 3 / 4; background-color: blue;}
+    .div3 { grid-area: 2 / 4 / 3 / 5; background-color: yellow;}
+    .div4 { grid-area: 2 / 5 / 3 / 6; background-color: green;}
+    .div5 { grid-area: 2 / 6 / 3 / 7; background-color: black;}
+    .div6 { grid-area: 3 / 2 / 4 / 3; background-color: purple;}
+    .div7 { grid-area: 3 / 3 / 4 / 4; background-color: aqua;}
+    .div8 { grid-area: 3 / 4 / 4 / 5; background-color: white;}
+    .div9 { grid-area: 3 / 5 / 4 / 6; background-color: orange;}
+    .div10 { grid-area: 3 / 6 / 4 / 7; background-color: bisque;}
+    .div11 { grid-area: 4 / 2 / 5 / 3; background-color: cadetblue;}
+    .div12 { grid-area: 4 / 3 / 5 / 4; background-color: green;}
+    .div13 { grid-area: 4 / 4 / 5 / 5; background-color: yellow;}
+    .div14 { grid-area: 4 / 5 / 5 / 6; background-color: blue;}
+    .div15 { grid-area: 4 / 6 / 5 / 7; background-color: orange;}

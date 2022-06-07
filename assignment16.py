@@ -1,0 +1,5 @@
+a = input('input a: ')
+b = input('input b: ')
+output = float(a) + float(b)
+string = str(output)
+print("Outcome is: " + string)
